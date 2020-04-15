@@ -12,12 +12,13 @@ import FormularioBasico3 from './Pages/FormularioBasico3';
 import BiscoitoDaSorte from './Pages/BiscoitoDaSorte';
 import Cronometro from './Pages/Cronometro';
 import ApiRest from './Pages/ApiRest';
+import ToDoListPage from './Pages/ToDoListPage';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ApiRest />
+    <ToDoListPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

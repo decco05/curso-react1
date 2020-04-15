@@ -10,7 +10,6 @@ class ApiRest extends Component {
         this.state = {
             dataApiRest: []
         }
-
     }
 
     componentDidMount() {
@@ -22,8 +21,6 @@ class ApiRest extends Component {
             this.setState(state);
             console.log(state.dataApiRest);
         });
-
-
     }
 
     render() {
